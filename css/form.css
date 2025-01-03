@@ -40,7 +40,8 @@ ul {
   height: 80%;
 }
 .prim-heading {
-  font-size: 3.4rem;
+  font-size: 4.1rem;
+  font-weight: 700;
   line-height: 1.4;
   padding: 3rem 0 1rem;
 }
@@ -52,7 +53,7 @@ ul {
   margin: 2rem 0;
 }
 .social-icon {
-  color: rgb(96, 96, 212);
+  color: rgb(3, 103, 242);
   width: 3.2rem;
   height: 3.2rem;
 }
@@ -70,33 +71,37 @@ ul {
 }
 .home:link,
 .home:visited {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 1.8rem;
 }
 .home:hover,
 .home:active {
-  color: rgb(96, 96, 212);
+  color: rgb(3, 103, 242);
 }
 .sign-in:link,
 .sign-in:visited {
-  color: rgb(96, 96, 212);
-  font-weight: 700;
+  color: rgb(3, 103, 242);
+  font-weight: 600;
 }
 
 /* ************** */
 .sign-up {
   font-size: 3.4rem;
+  font-weight: 700;
+  color: rgb(26, 32, 44);
   /* margin-bottom: 1rem; */
 }
 .form-description {
-  color: #555;
+  color: rgb(113, 128, 150);
+  font-weight: 500;
   padding: 1rem 0 2rem;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 .form {
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
+  color: rgb(26, 32, 44);
 }
 fieldset {
   border: none;
@@ -110,14 +115,19 @@ select {
   outline: none;
   border: 1px solid gainsboro;
   width: 100%;
-  /* height: 100%; */
+
   padding: 1rem 1.5rem;
   margin: 1rem 0;
   border-radius: 0.5rem;
 }
+label {
+  font-weight: 500;
+  font-size: 1.4rem;
+}
 ::placeholder {
   font-size: 1.4rem;
-  font-weight: 700;
+  font-weight: 400;
+  color: rgb(26, 32, 44);
 }
 .consent-clause {
   font-size: 1.7rem;
@@ -126,11 +136,10 @@ select {
   color: #757272;
 }
 .consent-clause .consent-terms {
-  color: rgb(96, 96, 212);
+  color: rgb(3, 103, 242);
 }
 .sign-btn {
-  background: rgb(108, 108, 231);
-  outline: none;
+  background: rgb(3, 103, 242);
   border: none;
   padding: 2rem;
   color: #fff;
