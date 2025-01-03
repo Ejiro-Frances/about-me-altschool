@@ -145,3 +145,13 @@ label {
   color: #fff;
   border-radius: 1rem;
 }
+
+@media (max-width: 38rem) {
+  .main,
+  fieldset {
+    grid-template-columns: 1fr;
+  }
+  .left-col {
+    display: none;
+  }
+}
